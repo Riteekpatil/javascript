@@ -64,3 +64,10 @@ function addthree(x,y,z){
 addthree(num1,num2,num3);
 addthree(a,b,c);
 
+function addition(num1,num2){
+  var result = num1+num2;
+  return result;
+
+}
+var abc = addition(100,200);
+console.log(abc);
